@@ -1,0 +1,435 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "MILT_RG"; 
+}
+body{
+	background-color: #F7F7F7;
+}
+a:hover{
+	cursor: pointer;
+}
+.nav_bar{
+	width: 100%;
+	height: 131px;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	border-bottom:1px solid #CCCCCC; 
+}
+.tu_shubiao{
+	height: 80px;
+	width: 100%;
+	/*border: 1px solid;*/
+}
+.main{
+    color: #000000;
+    font-family: "MILT_RG";
+}
+.head_on{
+	margin: 0px auto;	
+	background-color: #000000;
+    height: 49px;
+    min-width: 1240px;
+}
+.content_head{
+	margin: 0px auto;
+	background-color: #e5e5e5;
+    width: 100%;
+    height: 50px;
+    font-family: "MILT_RG";
+    color: #868686;
+}
+.head_on_content{
+	margin: 0px auto;
+	width: 1240px;
+	height: 50px;
+	/*border: 1px solid;*/
+	position: relative;
+}
+.miui_logo{
+	background-image: url(http://www.miui.com/static/index7/images/index_0.png);
+    height: 17px;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 16px;
+    width: 46px;
+}
+.miui_menu{
+	height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 9px;
+    width: 600px;
+    color: #dddddd;
+    font-family: "MILT_RG";
+    font-size: 14px;
+}
+.miui_menu a{
+	padding: 0px 0px 0px 30px;
+}
+.miui_menu a:hover{
+	color: #868686;
+}
+.current{
+	color: #868686;
+}
+.content_head h2{
+	height: 50px;
+    width: 200px;
+    line-height: 50px;
+    float: left;
+    color: #444444;
+    font-size: 16px;
+    font-weight: normal;
+    color: #868686;
+}
+.content_head p{
+	height: 50px;
+    width: 400px;
+    line-height: 50px;
+    float: right;
+    text-align: right;
+    font-size: 14px;
+}
+.content_head a{
+	padding:0px 10px;
+}
+.content_head a:hover{
+	color:#676767; 
+}
+.part_on,
+.part_on110{
+	min-width: 1240px;
+	display: flex;
+	justify-content: center;
+}
+.part_on1{
+	position: relative;
+	width: 1240px;
+	height: 714px;
+    background: url(../img/mini8/miui8-084.jpg) no-repeat;
+}
+.part_on110{
+	border-top: 1px solid #E0E0E0; 
+	background-color: #FFFFFF;
+}
+.tu_shubiao{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	border-top: 1px solid #E0E0E0; 
+	background-color: #FFFFFF;
+}
+.ti_shubiao2{
+	width: 1240px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.part_on2{
+	height: 119px;
+    width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part_on21{
+	width: 763px;
+	height: 19px;
+	display: flex;
+	justify-content: flex-start;
+}
+.part_on21 .active{
+	color: #00B8EC;
+}
+.part_on211,
+.part_on212,
+.part_on213,
+.part_on214,
+.part_on215{
+	width: 173px;
+	height: 19px;
+	display: block;
+	text-indent:30px;
+	line-height: 15px;
+	/*font-size: ;*/
+	font-family: "MILT_RG";
+}
+.part_on211{
+	background:url(../img/mini8/miui8-029-2.png) no-repeat; 
+}
+.part_on212{
+	background:url(../img/mini8/miui8-029-2.png) no-repeat; 
+	background-position: -171px 0px;
+}
+.part_on213{
+	background:url(../img/mini8/miui8-029-2.png) no-repeat; 
+	background-position: -335px 0px;
+
+}
+.part_on214{
+	background:url(../img/mini8/miui8-029-2.png) no-repeat; 
+	background-position: -505px 0px;	
+}
+.part_on215{
+	background:url(../img/mini8/miui8-029-2.png) no-repeat; 
+	background-position: -673px 0px;
+
+}
+.part_on3{
+	height: 1170px;
+	width: 100%;
+    background: url("../img/mini8/miui8-031.jpg") no-repeat center center;
+}
+.part_on3 img{
+	width: 100%;
+	/*border: 1px solid;*/
+}
+.part_on3 h2{
+	padding-top:116px; 
+	/*display: ;*/
+	text-align: center;
+	font-size: 36px;
+    color: white;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: "MILT_RG";
+    /*margin-top:116px; */
+}
+.part_on3 h3{
+	font-family: "MILT_RG";
+	text-align: center;
+	font-size: 18px;
+  	color: #9e9d9b;
+    line-height: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.img_click{
+	width: 223px;
+	height: 18px;
+	z-index: 10;
+	position: absolute;
+	top: 557px;
+	left: 515px;
+}
+.img_click:hover{
+	cursor: pointer;
+}
+.part_on4{
+	background-color: white;
+	height: 1192px;
+	width: 100%;
+	/*border: 1px solid;*/
+	text-align: center;
+	margin-top:112px;
+	font-weight: normal;
+    line-height: 40px;
+}
+h2,h3{
+	font-weight: normal;
+	 font-family: "MILT_RG"; 
+}
+.part_on4 h2{
+	padding-top:116px; 
+	font-size: 36px;
+    color: #585858;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.part_on4 h3{
+	font-family: "MILT_RG";
+	font-size: 18px;
+    color: #8d8d8d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+.part_on41{
+	margin:0px auto;
+	height: 800px;
+	width: 1210px;
+	/*border: 1px solid;*/
+	display: flex;
+	justify-content: space-between;
+}
+.phone_picture{
+	width: 323px;
+	height: 800px;
+	/*border: 1px solid;*/
+	position: relative;
+}
+.picture1{
+	background: url("../img/mini8/miui8-034.png") no-repeat;
+}
+.picture2{
+	background: url("../img/mini8/miui8-035.png") no-repeat;
+}
+.picture3{
+	background: url("../img/mini8/miui8-036.png") no-repeat;
+}
+#video1,
+#video2,
+#video3{
+	z-index: 10;
+	/*border: 50px solid;*/
+}
+.picture_video{
+	width: 306px;
+	height: 544px;
+	/*border: 1px solid;*/
+	position: absolute;
+    left: 8px;
+    top: 62px;
+    width: 306px;
+    height: 544px;
+}
+.phone_text{
+	width: 323px;
+    height: 110px;
+    padding-top: 690px;
+    float: left;
+    color: #8d8d8d;
+    line-height: 30px;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 1px;
+}
+.border_text{
+	font-family: "MILT_RG"; 
+	font-size: 16px;
+    color: #b8b8b8;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 95px;
+}
+/*轮播图*/
+.part_on5{
+	background-color: white;
+	height: 1180px;
+	width: 100%;
+	/*border: 1px solid;*/
+	text-align: center;
+}
+.part_on5 h2{
+	padding-top:116px; 
+	font-size: 36px;
+    color: #585858;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.part_on5 h3{
+	font-family: "MILT_RG";
+	font-size: 18px;
+    color: #8d8d8d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+.lunbo{
+	width: 100%;
+}
+/*视频剪辑*/
+.part_on6{
+	background-color: white;
+	height: 1430px;
+	width: 100%;
+	/*border: 1px solid;*/
+	text-align: center;
+	background-color: white;
+}
+.part_on6 h2{
+	padding-top:116px; 
+	font-size: 36px;
+    color: #585858;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.part_on6 h3{
+	font-family: "MILT_RG";
+	font-size: 18px;
+    color: #8d8d8d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+/*全新便签*/
+.part_on7{
+	height: 1980px;
+	width: 100%;
+	/*border: 1px solid;*/
+	text-align: center;
+	background-color: white;
+}
+.part_on7 h2{
+	padding-top:116px; 
+	font-size: 36px;
+    color: #585858;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.part_on7 h3{
+	font-family: "MILT_RG";
+	font-size: 18px;
+    color: #8d8d8d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+.bianqian1{
+	margin-bottom: 80px; 
+}
+/*小米定制输入法*/
+.part_on8{
+	height: 942px;
+	width: 100%;
+	/*border: 1px solid;*/
+	text-align: center;
+	background-color: white;
+}
+.part_on8 h2{
+	padding-top:116px; 
+	font-size: 36px;
+    color: #585858;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.part_on8 h3{
+	font-family: "MILT_RG";
+	font-size: 18px;
+    color: #8d8d8d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+/*进一步了解*/
+.part_on9{
+	background-color: white;
+	height: 126px;
+	width: 100%;
+	text-align: center;
+}
+.part_on9 h2{
+	font-size: 24px;
+    line-height: 125px;
+    font-weight: normal;
+    font-family: "MILT_RG";
+    color: #209FE1;
+}
+.part_on9 a:hover{
+	cursor: pointer;
+}
+/*底边框*/
+.part_bottom{
+	height: 1px;
+	background: url(../img/mini8/miui7.5-032.png) no-repeat center bottom;
+}

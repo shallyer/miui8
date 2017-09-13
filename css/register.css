@@ -1,0 +1,147 @@
+body{
+	background-color: #f9f9f9;
+}
+a{
+	font-family: "微软雅黑";
+	font-size:12px;
+	cursor: pointer;
+}
+.windows{
+	display: flex;
+	/*border: 1px solid;*/
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	}
+.layout{
+	background-color: white;
+	/*margin-top:189px;*/ 
+	width: 854px;
+	height: 502px;
+	/*border: 1px solid;*/
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.layout_one,
+.layout_two{
+	width: 786px;
+	/*border: 1px solid;*/
+}
+.layout_one{
+	height: 88px;
+	display: flex;
+	justify-content: center;
+}
+.layout_one img{
+	width: 49px;
+	height: 48px;
+}
+.layout_two{
+	height: 45px;
+	font-size: 30px;
+    font-weight: normal;
+	text-align: center;
+}
+.layout_three{
+	/*border: 1px solid;*/
+	width: 332px;
+	height: 339px;
+	display: flex;
+	flex-direction: column;
+}
+.spread{
+	width: 332px;
+	height: 270px;
+	display: none;
+}
+.phone_number,
+.phone{
+	width: 332px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+}
+.phone{
+	margin-top: 21px;
+}
+.phone_decide,
+.code_decide{
+	width: 332px;
+	height: 21px;
+	color:#FF6700;
+	font-size: 12px;
+	/*border: 1px solid;*/
+	display: none;
+}
+.auth_code{
+	margin-top: 21px;
+	width: 200px;
+	height: 40px;
+	/*border: 1px solid;*/
+}
+.download_1{
+	margin-top: 38px;	
+	width: 332px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 14px;
+	background-color: #FF6700;
+}
+.text_register{
+	width: 332px;
+	height: 40px;
+	margin-top: 10px;
+	line-height: 20px;
+	/*border: 1px solid;*/
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #666;
+}
+.text_register a{
+	font-weight: bold;
+	color: black;
+}
+.phone_decide{
+	
+}
+
+
+.foot{
+	margin-top: 150px;
+	width: 854px;
+	height:80px; 
+	/*border: 1px solid;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.foot_list{
+	width: 235px;
+	height: 30px;
+	/*border: 1px solid;*/
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #666;
+	line-height: 30px;
+}
+.list_ul{
+	text-align: center;
+}
+.foot_list li{
+	float: left;
+	padding: 0px 6px;
+}
+.foot_text{
+	width: 500px;
+	height: 30px;
+	/*border: 1px solid;*/
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	line-height: 30px;
+}
